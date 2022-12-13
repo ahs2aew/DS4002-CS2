@@ -1,0 +1,6 @@
+Here is the link to the dataframe you will use for the project: https://www.kaggle.com/datasets/snapcrack/all-the-news 
+
+This dataframe contains information about roughly 150,000 news articles from 15 major U.S. publications. 
+There are columns for the article title, article content, and so on. 
+Since this dataframe includes text data (the article title and content), sentiment analysis could be a useful tool in completing the project. 
+There will be further materials concerning what sentiment analysis is/how it could be applied in this context - check the other materials in this folder! 
