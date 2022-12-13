@@ -1,4 +1,4 @@
-## What is sentiment analysis? 
+# What is sentiment analysis? 
 Sentiment analysis is a tool that can be used to determine what the tone, or sentiment, of text is : is it positive, negative or neutral? Is it angry, 
 excited, or happy? In this way, sentiment analysis can be used to determine how polarizing a piece of text is. 
 There are a variety of packages in Python that can be used to perform sentiment analysis. Textblob and VADER are some commonly used ones. With 
@@ -7,12 +7,13 @@ entire article is. For the text you feed in, TextBlob can output a polarity scor
 piece of text is extremely negative, and if the score is +1, the text is extremely positive. 
 
 Here are some starter resources on sentiment analysis and Python packages that allow you to perform it: 
-
+https://monkeylearn.com/sentiment-analysis/ <-- introduction to the topic 
 https://github.com/cjhutto/vaderSentiment <-- documentation for the VADER Sentiment package
 https://textblob.readthedocs.io/en/dev/ <-- documentation for the TextBlob package 
+https://www.dataquest.io/blog/tutorial-text-analysis-python-test-hypothesis <-- great tutorial article for doing sentiment analysis in python 
 
 
-## How could sentiment analysis help with this project? 
+# How could sentiment analysis help with this project? 
 The "polarity score" aspect of Textblob could be useful for this project. Again, the goal is to determine what the most "attention-seeking" publication is.
 One potential avenue to explore this could be looking at how polarizing the text of article titles/article content is for each publication. 
 A publication that is more attention seeking might be one that uses highly polarized language in their titles or article content (or both). 
