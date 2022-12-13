@@ -1,0 +1,14 @@
+Here is some sample code for performing some potentially important processes, should you choose to explore the sentiment analysis route with this project. 
+
+Some necessary packages:
+import textblob 
+from textblob import TextBlob
+
+If you wanted to add a column that gives a "political bias label" for each publication (could use the media bias chart to come up with these labels): 
+# adding a column for article bias
+bias_labels = {'Atlantic': 'lean left', 'Breitbart': 'right', 'Business Insider': 'lean left', 'Buzzfeed News': 'left', 'CNN': 'left', 'Fox News': 'right',
+                'Guardian': 'lean left', 'National Review': 'right', 'New York Post': 'lean right', 'New York Times': 'lean left',
+                'NPR': 'left', 'Reuters': 'center', 'Talking Points Memo': 'left', 'Washington Post': 'lean left', 'Vox': 'left'}
+articles['bias'] = articles['publication'].apply(lambda x: bias_labels[x]) # go through the articles publication column, for each x apply the bias label 
+
+
