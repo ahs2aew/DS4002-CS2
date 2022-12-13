@@ -5,12 +5,16 @@ There are a variety of packages in Python that can be used to perform sentiment 
 textblob, there is a built in process to determine the polarity of a sentiment -- it can determine how strongly positive or negative a statement or 
 entire article is. For the text you feed in, TextBlob can output a polarity score that ranges from [-1,1]. If the score is -1, that means that the 
 piece of text is extremely negative, and if the score is +1, the text is extremely positive. 
+Before you get into that part, though, you will need to tokenize the text - this basically means that you make the text easier to work with. It involves 
+making all words lowercase, and taking out punctuation. 
+Below will be some links to helpful resources. This folder will also contain sample code for these processes -- check the "Sample Code" folder. 
 
 Here are some starter resources on sentiment analysis and Python packages that allow you to perform it: 
-https://monkeylearn.com/sentiment-analysis/ <-- introduction to the topic 
-https://github.com/cjhutto/vaderSentiment <-- documentation for the VADER Sentiment package
-https://textblob.readthedocs.io/en/dev/ <-- documentation for the TextBlob package 
-https://www.dataquest.io/blog/tutorial-text-analysis-python-test-hypothesis <-- great tutorial article for doing sentiment analysis in python 
+1) introduction to the topic: https://monkeylearn.com/sentiment-analysis/ 
+2) introduction to tokenization: https://www.mygreatlearning.com/blog/tokenization/#:~:text=Tokenisation%20is%20the%20process%20of,punctuation%20marks%20may%20be%20discarded.    
+3) documentation for the VADER Sentiment package: https://github.com/cjhutto/vaderSentiment
+4) documentation for the TextBlob package: https://textblob.readthedocs.io/en/dev/
+5) great tutorial article for sentiment analysis in Python: https://www.dataquest.io/blog/tutorial-text-analysis-python-test-hypothesis 
 
 
 # How could sentiment analysis help with this project? 
